@@ -1,0 +1,28 @@
+{
+    "intents": [
+{"context":"",
+    "patterns": ["Hello", "Hi there", "Good morning", "Whats's up"],
+    "responses": ["Hey!", "Hello", "Hi!", "Good morning!"],
+    "tag": "hello"},
+{"context":[""],
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understant"],
+    "tag": "no answer"}, 
+{"context":"",
+    "patterns": ["What is your job", "what is your work"],
+    "responses": ["My job is to make you feel at home.", "I work to serve the best I can."],
+    "tag": "job"},
+{"context":"",
+    "patterns": ["What is your age", "How old are you", "When were you born"],
+    "responses": ["I was born in 2022"],
+    "tag": "age"}, 
+{"context":"",
+    "patterns": ["I can't find my orders", "How can I order?", "I want to order"],
+    "responses": ["To order or to find your orders visit: "],
+    "tag": "orders"}, 
+{"context":"",
+    "patterns": ["Thank you!", "I understand now"],
+    "responses": ["Have a great day!", "Thank you for using CloudMall"],
+    "tag": "thank you"}
+]
+}
